@@ -1,0 +1,105 @@
+{
+  "id": "terry.devtools",
+  "name": "Dev Tools",
+  "description": "Sandboxed, fully offline, one minimal permission (local UI storage only) — smaller and safer. 40+ tools in ~120KB: password/QR/barcode/ID generators, hash & HMAC, AES encryption, JWT, TOTP, RSA keys, certificate decoder, Base64/32/58, timestamp/duration/cron, CIDR subnetting, text diff, color & contrast, regex tester, mojibake fixer and more.",
+  "publisher": "terry",
+  "verified": false,
+  "icon": "https://raw.githubusercontent.com/yaoxinghuo/dbx-dev-tools/v0.6.0/assets/plugin.svg",
+  "tags": [
+    "devtools",
+    "utilities",
+    "encoding",
+    "generator",
+    "qrcode",
+    "barcode",
+    "jwt",
+    "json",
+    "diff",
+    "color"
+  ],
+  "permissions": [
+    "host.storage"
+  ],
+  "source": "https://github.com/yaoxinghuo/dbx-dev-tools",
+  "homepage": "https://github.com/yaoxinghuo/dbx-dev-tools",
+  "license": "MIT",
+  "latestVersion": "0.6.0",
+  "versions": [
+    {
+      "version": "0.3.3",
+      "releasedAt": "2026-09-18T03:36:41.223Z",
+      "releaseNotes": "Initial release: 10 pure-frontend workbench tools (password, QR code, barcode, hash, UUID, Base64, JWT parser, RMB uppercase, URL codec, image ⇄ Base64).",
+      "artifacts": [
+        {
+          "target": "universal",
+          "url": "https://dl.dbxio.com/plugins/terry.devtools/0.3.3/terry.devtools-0.3.3-universal.dbxp",
+          "sha256": "a07d3bdefa98873b783598e1364dcd6f7adbcbd022b002ea5f5df446e712bdae",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 49083
+        }
+      ]
+    },
+    {
+      "version": "0.4.2",
+      "releasedAt": "2026-09-19T18:00:28.177Z",
+      "releaseNotes": "Initial release with 10 tools: password, QR code, barcode, hash, UUID, Base64, JWT parser, RMB uppercase, URL codec and image ⇄ Base64.",
+      "artifacts": [
+        {
+          "target": "universal",
+          "url": "https://dl.dbxio.com/plugins/terry.devtools/0.4.2/terry.devtools-0.4.2-universal.dbxp",
+          "sha256": "2877b840ab1ee5966fb0bf03048ab1fc30253f7053dd45149e7c40ba200c3ca6",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 64069
+        }
+      ]
+    },
+    {
+      "version": "0.5.1",
+      "releasedAt": "2026-09-20T02:33:37.570Z",
+      "releaseNotes": "26 tools: password/ID/lorem/QR/barcode generators, Base64/URL/escape/image codecs, hash & HMAC, JWT decode & sign, AES, RMB uppercase, JSON formatter, text diff, case/line/invisible-char/mojibake tools, timestamp & date calc, file size, number base, color & contrast, chmod.",
+      "artifacts": [
+        {
+          "target": "universal",
+          "url": "https://dl.dbxio.com/plugins/terry.devtools/0.5.1/terry.devtools-0.5.1-universal.dbxp",
+          "sha256": "1a9198d8aa0f7c22c533865ea273e14d9e59050dc224273be988125c65f9ce45",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 85933
+        }
+      ]
+    },
+    {
+      "version": "0.5.2",
+      "releasedAt": "2026-09-21T04:44:44.781Z",
+      "releaseNotes": "40 tools: password/ID/lorem/QR/barcode/RSA/TOTP/placeholder generators, Base64/32/58/URL/escape/punycode/quoted-printable/data-URI/image codecs, image compressor, hash & HMAC & CRC32, JWT decode & sign, AES, certificate decoder, RMB uppercase, JSON formatter, text diff, regex tester, case/line/invisible-char/mojibake tools, timestamp & date calc & duration, cron expression, SQL IN builder, Unicode inspector, file size, number base, semver, IP calculator, color & contrast & CMYK, chmod.",
+      "artifacts": [
+        {
+          "target": "universal",
+          "url": "https://dl.dbxio.com/plugins/terry.devtools/0.5.2/terry.devtools-0.5.2-universal.dbxp",
+          "sha256": "df01d502b445a15092830df2049fd45cedee0091721db0a7fde2dcbd07640ca8",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 120898
+        }
+      ]
+    },
+    {
+      "version": "0.6.0",
+      "releasedAt": "2026-09-22T03:49:26.779Z",
+      "releaseNotes": "Navigation overhaul: one Dev Tools workbench entry with an in-plugin sidebar — home, search with clear button, favorites, recently used and a collapsible all-tools group; the sidebar itself collapses to an icon rail. Favorites are pinned to a dedicated home section and reorderable by drag-and-drop in both places, with proper drag ghosts and grip affordances. Quick-fav stars on every tool row including search results, clear-recent action, and a hand-drawn lucide-style SVG icon set replacing emoji. Still ~120KB, fully offline.",
+      "artifacts": [
+        {
+          "target": "universal",
+          "url": "https://dl.dbxio.com/plugins/terry.devtools/0.6.0/terry.devtools-0.6.0-universal.dbxp",
+          "sha256": "c6d69bcc03638003d3de50a607793887fa72954fed79974899805f9c1bc4c8be",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 129974
+        }
+      ]
+    }
+  ],
+  "localizations": {
+    "zh-CN": {
+      "name": "Dev工具集",
+      "description": "沙箱离线运行，零联网、仅1项本地权限——更轻更安全。40+款开发工具仅 ~120KB：密码生成、哈希/HMAC、AES、JWT/TOTP、RSA/证书、多进制编解码、时间戳与 Cron、IP 子网、文本 Diff、颜色对比度、Unicode 检查、乱码修复、正则测试等一应俱全。"
+    }
+  }
+}
