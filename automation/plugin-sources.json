@@ -195,6 +195,11 @@
       "repository": "IceFoxs/dbx-plugin-data-convert",
       "metadataPath": ".dbx-store.json",
       "autoUpdate": true
+    },
+    {
+      "repository": "mugongliu1/dbx-terminal-launcher",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
     }
   ]
 }
